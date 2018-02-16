@@ -138,12 +138,12 @@ struct user_opt *opt_parser(char **main_arg, int arg_count)
 
 void help(void)
 {
-	printf("\n*****DHCP-spoofer by AwwwYeah******\n\n");
+	printf("\n*****DHCP server by AwwwYeah******\n\n");
 	
-	printf("-i           - Interface\n");
-	printf("-h(--help)   - Show this note and finish the program\n\n");
+	printf("-i            - Interface\n");
+	printf("-h (--help)   - Show this note and finish the program\n\n");
 
-    printf("Addresses settings:\n");
+    	printf("Addresses settings:\n");
 	printf("-s (--start-ip)   - Server will give addresses beginning with argument\n");
 	printf("-r (--router)     - Router's ip address\n");
 	printf("-d (--dns)        - DNS server's ip address\n\n");
